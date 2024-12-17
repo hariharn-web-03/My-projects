@@ -1,0 +1,133 @@
+body{
+    background: rgb(117,222,255);
+    background: linear-gradient(137deg, rgba(117,222,255,1) 0%, rgba(130,95,255,1) 55%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "Fredoka", sans-serif;
+}
+#main{
+    width: 1024px;
+    padding-left: 139px;
+    margin-left: 132px;
+    margin-top: 200px;
+}
+#main1{
+    width: 261px;
+    height: 500px;
+    border-radius: 20px;
+    border-top: 1px solid;
+    background-image: url(../../photo/microlearning.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    
+}
+#bar1{
+    background: rgb(0,142,247);
+    background: linear-gradient(178deg, rgba(0,142,247,1) 0%, rgba(145,227,229,1) 95%);
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 190px;
+    margin-left: 15px;
+    font-size: small;
+}
+#con1{
+    padding-left: 15px;
+    /* text-align: justify; */
+    padding-right: 15px;
+}
+#subcon1{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+#sub{
+    margin-left: 50px;
+    margin-top: -35px;
+    font-size: small;
+}
+#prof{
+    font-weight: 900;
+}
+#dat{
+    color: gray;
+}
+#main2{
+    width: 261px;
+    height: 500px;
+    border-top: 1px solid;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-image: url(../../photo/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -180px;
+    margin-top: -502px;
+    margin-left: 295px;
+    background-color: white;
+}
+#bar2{
+    background: rgb(255,225,140);
+    background: linear-gradient(178deg, rgba(255,225,140,1) 0%, rgba(244,151,0,1) 95%);
+    width: 50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 190px;
+    margin-left: 15px;
+    font-size: small;
+}
+#con2{
+    padding-left: 15px;
+    /* text-align: justify; */
+    padding-right: 15px;
+}
+#subcon2{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+#main3{
+    width: 261px;
+    height: 500px;
+    border-top: 1px solid;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-image: url(../../photo/images\ \(3\).jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -502px;
+    margin-left: 589px;
+    background-color: white;
+}
+#bar3{
+    background: rgb(255,134,117);
+    background: linear-gradient(178deg, rgba(255,134,117,1) 0%, rgba(208,42,0,1) 95%);
+    width: 90px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 190px;
+    margin-left: 15px;
+    font-size: small;
+}
+#con3{
+    padding-left: 15px;
+    /* text-align: justify; */
+    padding-right: 15px;
+}
+#subcon3{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 48px;
+}
+
+

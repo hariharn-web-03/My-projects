@@ -1,0 +1,109 @@
+#con1{
+    height: 90vh;
+    background-image: url(./netflix-800x450.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mcon{
+    height: 100vh;
+    background: rgb(0,0,0);background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(100,0,205,1) 35%, rgba(0,0,0,1) 100%);}
+body{
+    background-color: black;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: white;
+}
+#subcon1{
+    border: 1px solid white;
+    height: 72vh;
+    width: 1100px;
+}
+#netflix{
+    height: 60px;
+}
+.netflix{
+    background-image: url(./Netflix_Logo_PMS.png);
+    height: 75px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -60px;
+}
+#lang{
+    width: 150px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: -55px;
+    margin-left: 800px;
+}
+#sign{
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -34px;
+    margin-left: 970px;
+
+}
+#sign:hover{
+    background-color: rgb(223, 0, 0);
+}
+#in{
+    text-decoration: none;
+    color: white;
+}
+#unlim{
+    color: white;
+    font-weight: bolder;
+    font-size: 6vh;
+    text-align: center;
+}
+#get{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+#get:hover{
+    background-color: rgb(223, 0, 0);
+}
+#watch{
+    font-size: larger;
+    text-align: center;
+}
+#ready{
+    
+    font-size: smaller;
+    text-align: center;
+}
+.email{
+    background-color: black;
+    opacity: 0.7;
+    color: gray;
+    
+}
+.enter{
+    border: 1px solid black;
+    height: 40px;
+    width: 250px;
+}
+#subcon2{
+    border: 1px solid white;
+    height: 50vh;
+    width: 1100px;
+    margin-top: 250px;
+    background-image: url(./tv.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#con2{
+    height: 90vh;
+    border-radius: 500px;
+    border: 10px solid purple;
+    margin-top: 160px;
+    width: 190vh;
+}

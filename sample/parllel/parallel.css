@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.con{
+    height: 60vh;
+    background-image: url(../../photo/6vb3s9ow29o11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+    padding-top: 411px;
+    position: relative;
+    opacity: 0.5;
+}
+#bar{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    width: 322px;
+    height: 30px;
+    padding-top: 15px;
+    margin-left: 584px;
+}
+#cont1{
+    margin-left: 612px;
+    margin-top: -35px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 5px;
+    color: white;
+}
+#con2{
+    margin-top: -50px;
+    padding: 30px;
+    background-color: white;
+    position: absolute;
+}
+#con3{
+    height: 80vh;
+    /* width: 100vw; */
+    background-image: url(../../photo/blurred-bokeh-colorful-colourful.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 144px;
+    position: relative;
+    opacity: 0.8;
+}
+#con4{
+    margin-top: -190px;
+    background-color: rgb(0, 23, 43);
+    position: absolute;
+    padding: 30px;
+    color: white;
+}
+#con5{
+    height: 80vh;
+    background-image: url(../../photo/new-york-city-picture-2560x1440_67859-mm-90.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+#con6{
+    background-color: rgb(0, 23, 43);
+    position: absolute;
+    padding: 30px;
+    color: white;
+    margin-top: -188px;
+}
+#bar7{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    width: 322px;
+    height: 30px;
+    padding-top: 15px;
+    margin-left: 584px;
+    margin-top: -411px;
+    position: relative;
+    opacity: 0.5;
+}
+#cont7{
+    margin-left: 620px;
+    margin-top: -35px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+#con7{
+    height: 100vh;
+    background-image: url(../../photo/6vb3s9ow29o11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.5;
+}
+#cont3{
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 680px;
+}

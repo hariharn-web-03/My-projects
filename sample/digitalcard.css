@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    padding-left: 230px;
+    padding-top: 50px;
+}
+#we{
+    font-weight: 700;
+    font-size: 200px;
+    width: 600px;
+    text-align: right;
+   
+}
+#con{
+    width: 720px;
+    margin-left: 680px;
+    margin-top: -590px;
+    font-size: 40px;
+
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    width: 300px;
+    height: 80px;
+    background-color: rgba(5,65,244,255);
+    text-align: center;
+    margin-left: 680px;
+    padding: 20px 50px 20px 50px;
+    font-weight: 900;
+
+}
+#read{
+    margin-top: 80px;
+}
+
+#main{
+    width: 1440px;
+    
+  
+}
+

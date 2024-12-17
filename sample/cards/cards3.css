@@ -1,0 +1,51 @@
+#main{
+    width: 1024px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 208px;
+    margin-top: 50px;
+}
+.con{
+    width: 210px;
+    border: 1px solid white;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+#img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+p{
+    font-size: small;
+}
+#con2{
+    margin-left: 261px;
+    margin-top: -261px;
+}
+#con3{
+    margin-left: 521px;
+    margin-top: -262px;
+}
+#con4{
+    margin-top: 20px;
+}
+#con5{
+    margin-left: 261px;
+    margin-top: -261px;
+}
+#con6{
+    margin-left: 521px;
+    margin-top: -262px;
+}
+
+#sub{
+    margin-left: 130px;
+}
+body{
+    background-color: rgba(229,229,229,255);
+}

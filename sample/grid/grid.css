@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+#back1{
+    background: rgb(55,89,152);
+    background: linear-gradient(27deg, rgba(55,89,152,1) 0%, rgba(124,208,194,1) 100%);
+    height: 50vh;
+
+}
+#back2{
+    background-color: rgba(124,208,194,1);
+    height: 50vh;
+}
+#gridc{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 200px 400px;
+    grid-template-columns: repeat(3,341px);
+    grid-template-areas: "one one one" "two two two" "three four four";
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: -100vh;
+    margin-left: 208px;
+}
+#grid-item1{
+    grid-area: one;
+    border: 2px solid rgba(124,208,194,1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#grid-item2{
+    grid-area: two;
+    text-align: center;
+    color: white;
+}
+#grid-item3{
+    grid-area: three;
+    border-radius: 30px;
+    background-image: url(./images.png);
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    background-size: 500px;
+    background-position-x: -65px;
+    padding: 20px;
+    background-color: white;
+}
+#grid-item4{
+    grid-area: four;
+    border-radius: 30px;
+    background-image: url(./plpso-feratures-data-business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+#subgi{
+    background: rgb(55,89,152);
+    background: linear-gradient(27deg, rgba(55, 89, 152, 0.664) 0%, rgba(124, 208, 194, 0.767) 100%);
+    padding: 20px;
+    padding-right: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 41.6vh;
+    position: absolute;
+    color: white;
+}
+#bar{
+    background-color: rgba(124,208,194,1);
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+#search{
+    color: white;
+    width: 600px;
+    height: 25px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    border-radius: 40px;
+    margin-left: 212px;
+}
+#sea{
+    background-color: rgba(124,208,194,1);
+    border: none; 
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    margin-left: 97.6px;
+    margin-top: -12px;
+}
+#inp{
+    border: none;
+    font-size: 20px;
+    width: 350px;
+    margin-left: 20px;
+}
+#icon1{
+    background-color: rgba(124,208,194,1);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    padding: 6px;
+}
+#icon2{
+    background-color: rgba(124,208,194,1);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 40px;
+    margin-top: -26px;
+}
+#subicon2{
+    margin-left: 2.5px;
+}
+#icon3{
+    background-color: rgba(124,208,194,1);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 80px;
+    margin-top: -27px; 
+}
+#subicon3{
+    margin-left: 2.2px;
+}
+#icon4{
+    margin-left: 530px;
+    margin-top: -27px;
+}
+#icon{
+    margin-left: 70px;
+    margin-top: -40px;
+}
+#subshare{
+    margin-top: 150px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+select{
+    border: none;
+    background: none;
+    width: 80px;
+    
+}
+option{
+    border: none;
+    background: none;
+}
+#navi{
+    word-spacing: 35px;
+    font-size: medium;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+#BROWSE{
+    word-spacing: normal;
+}
+#HOW{
+    word-spacing: normal;
+}
+#page{
+    margin-left: -60px;
+}
+#profile{
+    margin-left: 40px;
+    margin-top: 250px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+    background-color: white;
+}
+#proicon{
+    margin-left: 8px;
+    margin-top: 15px;
+}
+#box1{
+   width: 30px;
+   height: 30px;
+   border: 2px solid black;
+   border-radius: 6px;
+   position: absolute;
+   margin-left: -115px;
+   margin-top: 30px;
+   background-color: black; 
+}
+#box2{
+   width: 30px;
+   height: 30px;
+   border: 2px solid black;
+   background: rgb(55,89,152);
+   background: linear-gradient(27deg, rgb(55, 89, 152) 0%, rgb(124, 208, 194) 100%);
+   border-radius: 6px;
+   margin-left: -491px;
+   margin-top: -83.2vh;
+   position: relative;
+}
+#Topic{
+    font-weight: 800;
+    font-size: 35px;
+    border: 2px solid rgba(124,208,194,1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 58px;
+    width: 50vh;
+    padding-top:20px ;
+    margin-top: -85.5vh;
+    margin-left: -950px;
+    text-align: center;
+    
+}
+#profbox{
+    height: 300px;
+    width: 20vh;
+    border: 2px solid rgb(124, 208, 194);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: -111.1vh;
+    margin-left: 1060px;
+}

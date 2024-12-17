@@ -1,0 +1,199 @@
+
+.nav{
+    padding-left: 170px;
+    padding-right: 50px;
+    padding-top: 30px;
+    gap: 5PX;
+    font-size: 15px;
+    border:4px solid rgba(232,72,28,255);
+    height: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.nav-item{
+    width: 1120px;
+    font-weight: 500;
+    color: white;
+}
+#cop{
+    color: rgba(232,72,28,255);
+}
+.header{
+    background-color: rgba(52,67,74,255);
+    height: 65vh;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    height: 42vh;
+    background-image: url(../photo/PSX_20240717_143643.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1px;
+    opacity: 0.3;
+}
+#web{
+    color: white;
+    text-align: center;
+    margin-top: -280px;
+}
+#web>h1{
+    height: 80px;
+    font-weight: 600;
+    font-size: 50px;
+}
+#web>p{
+    font-size: 20px;
+}
+.subs{
+    padding-left: 170px;
+    padding-right: 100px;
+    padding-top: 30px;
+    margin-top: 170px;
+}
+.sub-item{
+    width: 300px;
+    font-weight: bolder;
+    color: white;
+
+}
+.form-controlborder-success{
+    width: 250px;
+    height: 30px;
+    font-size: 12px;
+    
+}
+.mb-4{
+    margin-left: 1050px;
+    margin-top: -35px;
+    
+}
+#subsc{
+    background-color: rgba(232,72,28,255);
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    color: white;
+}
+.row{
+    text-align: center;
+    height: 28vh;
+    margin-top: 34px;
+    width: 1370px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+#html{
+    height: 80px;
+    margin-top: 30px;
+}
+#logo{
+    height:0px;
+
+}
+#mark{
+    margin-top: 140px;
+    font-size: 14px;
+}
+#foot{
+    background-color: rgba(232,72,28,255);
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    height: 50px;
+    margin-top: 10px;
+}
+#foot>p{
+    padding-top: 15px;
+}
+#home:hover{
+    font-weight: 600;
+}
+#about:hover{
+    font-weight: 600;
+}
+#service:hover{
+    font-weight: 600;
+}
+#service:active{
+    color: white;
+}
+#about:active{
+    color: white;
+}
+#home:active{
+    color: white;
+}
+@media only screen and (max-width : 576px){
+    .header{
+        width: 576px;
+        height: 535px;
+    }
+    .nav-item{
+        margin-left: 20px;
+    }
+    .nav{
+        height: 120px;
+
+    }
+    .nav-item1{
+        margin-left: px;
+        width: 70px;
+        margin-top: -20px;
+    }
+    .nav-item2{
+        margin-left: px;
+        width: 70px;
+        margin-top: -20px;
+    }
+    .nav-item3{
+        margin-left: px;
+        width: 70px;
+        margin-top: -20px;
+    }
+    #affo{
+       margin-top: 80px;
+       font-size: 3px; 
+    }
+    #aff{
+        font-size: 34px;
+    }
+    .main{
+        height: 300px;
+    }
+    .sub-item{
+        margin-left: -10px;
+        width: 300px;
+        margin-top: -160px;
+    }
+    .mb-4{
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    #subsc{
+        margin-top: 5px;
+        margin-left:80px;
+    }
+    .row{
+        width: 530px;
+    }
+    #htmlmark{
+        margin-left: -150px;
+        margin-top: -30px;
+    }
+    #cssstyl{
+        margin-left: -525px;
+        margin-top: 230px;
+    }
+    #grap{
+        margin-left: -530px;
+        margin-top: 460px;
+    }
+    #foot{
+        margin-top: 500px;
+    }
+    
+}

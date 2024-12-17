@@ -1,0 +1,1923 @@
+@media (min-width:1440px) and (max-width:1919px){
+    body{
+        margin: 0;
+        background-color: black;
+        color: white;
+        font-family: "Inter", system-ui;
+    }
+    #background-image{
+        background-image: url(./IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg);
+        height: 86vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: auto;
+        position: relative;
+        /* width: 1440px;   */
+    }
+    #background-color{
+        /* background: rgb(32,32,32);
+        background: radial-gradient(circle, rgba(32, 32, 32, 0.616) 0%, rgb(0, 0, 0) 100%); */
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.562) 20%, rgba(0, 0, 0, 0.904) 100%);
+        height: 91.1vh;
+        margin-top: -91vh;
+        position: relative;
+        /* width: 1440px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #logo{
+        background-image: url(./Netflix_Logo_PMS.png);
+        width: 172px;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0;
+    }
+    #head{
+        align-content: center;
+        width: 1160px;
+        height: 88px;
+        /* border: 1px solid white; */
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+    }
+    #header-container{
+        padding-left: 140px;
+        width: 1440px;
+        height: 120px;
+        /* border: 1px solid white; */
+        position: absolute;
+        margin-top: -86vh;
+    }
+    #lang{
+        font-size: 13.3px;
+        width: 121px;
+        height: 32px;
+        background-color: rgba(0, 0, 0, 0.247);
+        color: white;
+        margin-left: -150px;
+        padding-left: 31px;
+        margin-top: 10px;
+        border-color: gray;
+    }
+    #langcontainer{
+        margin-top: 15px;   
+        
+    }
+    #morereason{
+        font-weight: 700;
+    }
+    #FrequentlyAsked{
+        font-weight: 700;
+    }
+    #sign{
+        text-align: center;
+        width: 75.98px;
+        height: 32px;
+        background-color: rgb(223, 0, 0);
+        border-radius:5px ;
+        padding-top: 5px;
+        margin-top: 25px;
+        margin-left: -15px;
+        font-weight: 500;
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    #sign:hover{
+        background-color: rgb(173, 0, 0);
+    }
+    #caret{
+        margin-left: -54px;
+        margin-top: -18px;
+        position: absolute;
+    }
+    #unlim-container{
+        width: 1440px;
+        height: 71vh;
+        /* border: 1px solid white; */
+        margin-top: 14vh;
+        margin-left: -16.3vh;
+        position: absolute;
+    }
+    #unlim-cont{
+        height: 71vh;
+        width: 1024px;
+        /* border: 1px solid white; */
+        text-align: center;
+        padding: 187px;
+        padding-top: 150px;
+        
+    }
+    #tvshow{
+        font-size: 50px;
+        font-weight: 900;
+    }
+    #email-box{
+        background-color: rgba(0, 17, 49, 0.466);
+        border: 1px solid gray;
+        border-radius: 3px;
+        width: 366.75px;
+        height: 56px;
+        padding: 14px 16px 10px;
+        color: white;
+    }
+    #get-cont{
+        width: 213.25px;
+        height: 56px;
+        background-color: rgb(223, 0, 0);
+        border-radius: 3px;
+        font-size: 25px;
+        font-weight: 700;
+        padding-right: 10px;
+        padding-top: 9px;
+        margin-top: -56px;
+        margin-left: 625px;
+        transition: 0.3s;   
+    }
+    #get-cont:hover{
+        background-color: rgb(173, 0, 0);
+    }
+    #email-container{
+        margin-left: -220px;
+    }
+    #raident-container{
+        width: 1440px;
+        display: flex;
+        box-sizing: border-box;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        margin: auto;
+        align-items: center;
+        border: solid .25rem transparent;
+        border-top-left-radius: 700% 100%;
+        border-top-right-radius: 700% 100%;
+        border-bottom: none;
+        background: radial-gradient(50% 500% at 50% -450%, rgba(64, 97, 231, 0.582) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+        background-clip: padding-box;
+        margin-top: 790px;
+    
+    }
+    #raident-container:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin-top: -.25rem;
+        border-radius: inherit;
+        background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    }
+    #trend-container{
+        width: 1440px;
+        height: 300vh;
+        /* border: 1px solid white; */
+        position: absolute;
+        margin-left: -40px;
+    }
+    .subhead{
+        margin-top: 80px;
+        margin-left: 148px;
+        width: 1144px;
+        /* border: 1px solid white; */
+    }
+    
+    #locat{
+        margin-left: 148px;
+        border: 1px solid rgb(78, 78, 78);
+        font-size: 15px;
+        width: 94px;
+        height: 40px;
+        padding: 8px 36px 8px 12px;
+        background-color: rgba(0, 0, 0, 0.247);
+        color: white;
+    }
+    #mov{
+        margin-top: -40px;
+        margin-left: 270px;
+        border: 1px solid rgb(78, 78, 78);
+        font-size: 15px;
+        width: 117px;
+        height: 40px;
+        padding: 8px 36px 8px 12px;
+        background-color: rgba(0, 0, 0, 0.247);
+        color: white;
+    }
+    #content{
+        display: flex;
+        margin-left: 148px;
+        width: 1144px;
+        /* border: 1px solid white; */
+        
+    }
+    #carousel{
+        width: 1144px;
+        height: 50vh;
+        /* border: 1px solid white; */
+        background: none;
+    }
+    #more{
+        height: 40vh;
+        margin-left: -1144px;
+        margin-top: 50vh;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: space-between;
+        padding-top:10px ;
+    
+    }
+    .flex-cards{
+        margin-top: 50px;
+        width: 256px;
+        height: 274px;
+        /* border: 1px solid white; */
+        background: rgba(0, 12, 66, 0.986);
+        background: linear-gradient(159deg, rgba(0,12,66,1) 0%, rgba(46,1,1,1) 100%);
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #container1{
+        margin-left: -539px;
+        
+    }
+    #sub-content{
+        width: 500px;
+    }
+    #icon1{
+        
+        height: 50px;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    #icon2{
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+    #icon3{
+        height: 50px;
+        width: 50px;
+        margin-top: -60px;
+        margin-left: 160px;
+    }
+    #trend{
+        font-weight: 700;
+    }
+    #Frequently{
+        margin-top:0;
+        height: 70vh;
+        position: absolute;
+    }
+    #bar1{
+        background-color: rgb(31, 31, 31);
+        color: white;
+        border-color: black;
+        font-size: 20px;
+        
+    }
+    #subbar1{
+        background-color: rgb(31, 31, 31);
+        color: white;
+        border-color: black;
+        font-size: 20px;
+    }
+    #accordionFlushExample{
+        margin-top: 10px;
+        border-color: black;
+    }
+    #box2{
+        margin-top: 10px;
+        border-color: black; 
+    }
+    #bottom-email{
+        position: absolute;
+        margin-top: 100px;
+        height: 15vh;
+        /* border: 1px solid white; */
+        margin: 148px;
+        margin-top: 700px;
+        width: 1144px;
+        text-align: center;
+    }
+    .email-container1{
+        position: absolute;
+    }
+    #email-box1{
+        background-color: rgba(0, 17, 49, 0.466);
+        border: 1px solid gray;
+        border-radius: 3px;
+        width: 500px;
+        height: 56px;
+        padding: 14px 16px 10px;
+        color: white;
+        margin-left: 200px;
+    }
+    #get-cont1{
+        width: 213.25px;
+        height: 56px;
+        background-color: rgb(223, 0, 0);
+        border-radius: 3px;
+        font-size: 25px;
+        font-weight: 700;
+        padding-right: 10px;
+        padding-top: 9px;
+        margin-top: -56px;
+        margin-left: 930px;
+        transition: 0.3s;   
+    }
+    #get-cont1:hover{
+        background-color: rgb(173, 0, 0);
+    }
+    #query{
+        height: 50vh;
+        position: absolute;
+        width: 1144px;
+        margin-top: 900px;
+        /* border: 1px solid white; */
+        margin-left: 148px;
+        font-size: medium;
+        color: rgb(168, 168, 168);
+    
+    }
+    
+    .list{
+        width: 256px;
+        height: 150px;
+        /* border: 1px solid white; */
+        color: rgb(168, 168, 168);
+    }
+    #list-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    #lang1{
+        font-size: 13.3px;
+        width: 121px;
+        height: 32px;
+        background-color: rgba(0, 0, 0, 0.247);
+        color: white;
+        margin-left: -150px;
+        padding-left: 31px;
+        margin-top: 10px;
+        border-color: gray;
+    }
+    #langcontainer1{
+        margin-top: 15px;
+        margin-left: 150px;  
+    }
+    a{
+        text-decoration: none;
+        color: rgb(168, 168, 168);
+        text-decoration: underline;
+    }
+    #carousel1{
+        margin-top: 50px;
+        width: 1135px;
+    
+    }
+    #card1{
+        margin-left: 15px;
+        padding: 20px;
+        display: inline;
+    }
+    #img1:hover{
+        scale: 1.05;
+    }
+    #img1{
+        width: 180px;
+        height: 252px;
+        border-radius: 10px;
+        transition: 0.2s;
+    }
+    #card2{
+        margin-top: -276px;
+        display: inline;
+        padding: 20px;
+    }
+    #card3{
+        margin-top: -276px;
+        display: inline;
+        padding: 20px;
+    }
+    #card4{
+        margin-top: -276px;
+        margin-left: 00px;
+        display: inline;
+        padding: 20px;
+    }
+    #card5{
+        margin-top: -276px;
+        margin-left: 00px;
+        display: inline;
+        padding: 20px;
+    }
+    
+    .carousel-control-prev{
+        margin-left: 1px;
+        margin-top: 120px;
+        background-color: rgb(56, 56, 56);
+        width: 24px;
+        height: 120px;
+        border-radius: 8px;
+        position: absolute;
+    }
+    .carousel-control-next{
+        margin-right: -10px;
+        margin-top: 120px;
+        background-color: rgb(56, 56, 56);
+        width: 24px;
+        height: 120px;
+        border-radius: 8px;
+        position: absolute;
+    }
+    #carouselExample{
+        position: absolute;
+    }
+    
+    #one-w{
+        font-weight: 950;
+        font-size: 80px;
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+    #one-b{
+        font-weight: 800;
+        font-size: 78px;
+        color: black;
+        margin-top: -119.1px;
+        margin-left: 0.8px;
+        
+    }
+    
+    #one{
+        margin-top: -119px;
+        margin-left: 20px;
+        position: absolute;
+    }
+    #two{
+        margin-left: 230px;
+        margin-top:-120px ;
+        position: absolute;
+    }
+    #three{
+        margin-left: 460px;
+        margin-top:-119px ;
+        position: absolute;
+    }
+    #four{
+        margin-left: 690px;
+        margin-top:-119px ;
+        position: absolute;
+    }
+    #five{
+        margin-left: 920px;
+        margin-top:-119px ;
+        position: absolute;
+    }
+}
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Inter", system-ui;
+}
+#background-image{
+    background-image: url(./IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg);
+    height: 86vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* width: 1440px;   */
+}
+#background-color{
+    /* background: rgb(32,32,32);
+    background: radial-gradient(circle, rgba(32, 32, 32, 0.616) 0%, rgb(0, 0, 0) 100%); */
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.562) 20%, rgba(0, 0, 0, 0.904) 100%);
+    height: 91.1vh;
+    margin-top: -91vh;
+    position: relative;
+    /* width: 1440px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    background-image: url(./Netflix_Logo_PMS.png);
+    width: 172px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+}
+#head{
+    align-content: center;
+    width: 1160px;
+    height: 88px;
+    /* border: 1px solid white; */
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+}
+#header-container{
+    padding-left: 140px;
+    width: 1440px;
+    height: 120px;
+    /* border: 1px solid white; */
+    position: absolute;
+    margin-top: -86vh;
+}
+#lang{
+    font-size: 13.3px;
+    width: 121px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+    margin-left: -150px;
+    padding-left: 31px;
+    margin-top: 10px;
+    border-color: gray;
+}
+#langcontainer{
+    margin-top: 15px;
+    
+}
+#sign{
+    text-align: center;
+    width: 75.98px;
+    height: 32px;
+    background-color: rgb(223, 0, 0);
+    border-radius:5px ;
+    padding-top: 5px;
+    margin-top: 25px;
+    margin-left: -15px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.3s;
+}
+#sign:hover{
+    background-color: rgb(173, 0, 0);
+}
+#caret{
+    margin-left: -54px;
+    margin-top: -18px;
+    position: absolute;
+}
+#caret1{
+    margin-left: -54px;
+    margin-top: -18px;
+    position: absolute;
+}
+#unlim-container{
+    width: 1440px;
+    height: 71vh;
+    /* border: 1px solid white; */
+    margin-top: 14vh;
+    margin-left: -16.3vh;
+    position: absolute;
+}
+#unlim-cont{
+    height: 71vh;
+    width: 1024px;
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 187px;
+    padding-top: 150px;
+    
+}
+#tvshow{
+    font-size: 50px;
+    font-weight: 900;
+}
+#email-box{
+    background-color: rgba(0, 17, 49, 0.466);
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 366.75px;
+    height: 56px;
+    padding: 14px 16px 10px;
+    color: white;
+}
+#get-cont{
+    width: 213.25px;
+    height: 56px;
+    background-color: rgb(223, 0, 0);
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 10px;
+    padding-top: 9px;
+    margin-top: -56px;
+    margin-left: 625px;
+    transition: 0.3s;   
+}
+#get-cont:hover{
+    background-color: rgb(173, 0, 0);
+}
+#email-container{
+    margin-left: -220px;
+}
+#raident-container{
+    width: 1440px;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    margin: auto;
+    align-items: center;
+    border: solid .25rem transparent;
+    border-top-left-radius: 700% 100%;
+    border-top-right-radius: 700% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -450%, rgba(64, 97, 231, 0.582) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-clip: padding-box;
+    margin-top: 790px;
+
+}
+#raident-container:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -.25rem;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+#trend-container{
+    width: 1440px;
+    height: 300vh;
+    /* border: 1px solid white; */
+    position: absolute;
+    margin-left: -40px;
+}
+.subhead{
+    margin-top: 80px;
+    margin-left: 148px;
+    width: 1144px;
+    /* border: 1px solid white; */
+}
+
+#locat{
+    margin-left: 148px;
+    border: 1px solid rgb(78, 78, 78);
+    font-size: 15px;
+    width: 94px;
+    height: 40px;
+    padding: 8px 36px 8px 12px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+}
+#mov{
+    margin-top: -40px;
+    margin-left: 270px;
+    border: 1px solid rgb(78, 78, 78);
+    font-size: 15px;
+    width: 117px;
+    height: 40px;
+    padding: 8px 36px 8px 12px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+}
+#content{
+    display: flex;
+    margin-left: 148px;
+    width: 1144px;
+    /* border: 1px solid white; */
+    
+}
+#carousel{
+    width: 1144px;
+    height: 50vh;
+    /* border: 1px solid white; */
+    background: none;
+}
+#more{
+    height: 40vh;
+    margin-left: -1144px;
+    margin-top: 50vh;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px ;
+
+}
+.flex-cards{
+    margin-top: 50px;
+    width: 256px;
+    height: 274px;
+    /* border: 1px solid white; */
+    background: rgba(0, 12, 66, 0.986);
+    background: linear-gradient(159deg, rgba(0,12,66,1) 0%, rgba(46,1,1,1) 100%);
+    padding: 20px;
+    border-radius: 20px;
+}
+#container1{
+    margin-left: -539px;
+    
+}
+#sub-content{
+    width: 500px;
+}
+#icon1{
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#icon2{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+#icon3{
+    height: 50px;
+    width: 50px;
+    margin-top: -60px;
+    margin-left: 160px;
+}
+#trend{
+    font-weight: 700;
+}
+#Frequently{
+    margin-top:0;
+    height: 70vh;
+    position: absolute;
+}
+#bar1{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-color: black;
+    font-size: 20px;
+    
+}
+#subbar1{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-color: black;
+    font-size: 20px;
+}
+#accordionFlushExample{
+    margin-top: 10px;
+    border-color: black;
+}
+#box2{
+    margin-top: 10px;
+    border-color: black; 
+}
+#bottom-email{
+    position: absolute;
+    margin-top: 100px;
+    height: 15vh;
+    /* border: 1px solid white; */
+    margin: 148px;
+    margin-top: 700px;
+    width: 1144px;
+    text-align: center;
+}
+.email-container1{
+    position: absolute;
+}
+#email-box1{
+    background-color: rgba(0, 17, 49, 0.466);
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 500px;
+    height: 56px;
+    padding: 14px 16px 10px;
+    color: white;
+    margin-left: 200px;
+}
+#get-cont1{
+    width: 213.25px;
+    height: 56px;
+    background-color: rgb(223, 0, 0);
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 10px;
+    padding-top: 9px;
+    margin-top: -56px;
+    margin-left: 930px;
+    transition: 0.3s;   
+}
+#get-cont1:hover{
+    background-color: rgb(173, 0, 0);
+}
+#query{
+    height: 50vh;
+    position: absolute;
+    width: 1144px;
+    margin-top: 900px;
+    /* border: 1px solid white; */
+    margin-left: 148px;
+    font-size: medium;
+    color: rgb(168, 168, 168);
+
+}
+
+.list{
+    width: 256px;
+    height: 150px;
+    /* border: 1px solid white; */
+    color: rgb(168, 168, 168);
+}
+#list-container{
+    display: flex;
+    justify-content: space-between;
+}
+#lang1{
+    font-size: 13.3px;
+    width: 121px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+    margin-left: -150px;
+    padding-left: 31px;
+    margin-top: 10px;
+    border-color: gray;
+}
+#langcontainer1{
+    margin-top: 15px;
+    margin-left: 150px;  
+}
+a{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    text-decoration: underline;
+}
+#carousel1{
+    margin-top: 50px;
+    width: 1135px;
+
+}
+#card1{
+    margin-left: 15px;
+    padding: 20px;
+    display: inline;
+}
+#img1:hover{
+    scale: 1.05;
+}
+#img1{
+    width: 180px;
+    height: 252px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#card2{
+    margin-top: -276px;
+    display: inline;
+    padding: 20px;
+}
+#card3{
+    margin-top: -276px;
+    display: inline;
+    padding: 20px;
+}
+#card4{
+    margin-top: -276px;
+    margin-left: 00px;
+    display: inline;
+    padding: 20px;
+}
+#card5{
+    margin-top: -276px;
+    margin-left: 00px;
+    display: inline;
+    padding: 20px;
+}
+
+.carousel-control-prev{
+    margin-left: 1px;
+    margin-top: 120px;
+    background-color: rgb(56, 56, 56);
+    width: 24px;
+    height: 120px;
+    border-radius: 8px;
+    position: absolute;
+}
+.carousel-control-next{
+    margin-right: -10px;
+    margin-top: 120px;
+    background-color: rgb(56, 56, 56);
+    width: 24px;
+    height: 120px;
+    border-radius: 8px;
+    position: absolute;
+}
+#carouselExample{
+    position: absolute;
+}
+
+#one-w{
+    font-weight: 950;
+    font-size: 80px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+#one-b{
+    font-weight: 800;
+    font-size: 78px;
+    color: black;
+    margin-top: -119.1px;
+    margin-left: 0.8px;
+    
+}
+
+#one{
+    margin-top: -119px;
+    margin-left: 20px;
+    position: absolute;
+}
+#two{
+    margin-left: 230px;
+    margin-top:-120px ;
+    position: absolute;
+}
+#three{
+    margin-left: 460px;
+    margin-top:-119px ;
+    position: absolute;
+}
+#four{
+    margin-left: 690px;
+    margin-top:-119px ;
+    position: absolute;
+}
+#five{
+    margin-left: 920px;
+    margin-top:-119px ;
+    position: absolute;
+}
+@media only screen and (width: 1920px) {
+    #background-image{
+        background-size: cover;
+        /* width: 1920px */
+    }
+    #background-color{
+        background-size: cover;
+        /* width: 1920px */
+    }
+    #header-container{
+        margin-left: 230px;
+    }
+    #trend-container{
+        margin-left: 230px;
+        margin-top: 10px;
+    }
+    #raident-container{
+        width: 1900px;
+        margin-top: 86vh;
+    }
+    #raident-container:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin-top: -.25rem;
+        border-radius: inherit;
+        background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    }
+    
+}
+@media only screen and (width: 2560px){
+    #background-image{
+        /* width: 1920px; */
+        height: 996px;
+        
+    }
+    #background-color{
+        /* width: 1920px; */
+        height: 1450px;
+    }
+    #raident-container{
+        width: 1920px;
+        margin-top: 65vh;
+        margin-left: 320px;
+    }
+    #trend-container{
+        margin-left: 600px;
+    }
+    #header-container{
+        margin-left: 600px;
+        margin-top: -64vh;
+    }
+    #unlim-cont{
+        margin-left: 320px;
+    }
+    #more{
+        margin-top: 400px;
+    }
+    #Frequently{
+        margin-top: -200px;
+    }
+    #bottom-email{
+        margin-top: 500px;
+    }
+    #query{
+        margin-top: 700px;
+    }
+}
+
+/* SignIN */
+
+#background-image1{
+    background-image: url(./IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+#background-color1{
+    /* background: rgb(32,32,32);
+    background: radial-gradient(circle, rgba(32, 32, 32, 0.616) 0%, rgb(0, 0, 0) 100%); */
+    background: rgba(0, 0, 0, 0.281);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.459) 0%, rgba(0, 0, 0, 0.315) 20%, rgba(0, 0, 0, 0.308) 100%);
+    height: 100vh;
+    margin-top: -100vh;
+    position: relative;
+}
+#sign-container{
+    width: 450px;
+    height: 735px;
+    /* border: 1px solid white; */
+    margin-left: 495px;
+    margin-top: -90vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 68px;
+}
+#inner-cont{
+    /* border: 1px solid white; */
+    height: 599px;
+}
+#sign-header{
+    width: 314px;
+    height: 71px;
+}
+#email{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;   
+}
+::placeholder{
+    color: rgb(168, 168, 168);
+    font-size: 16px;
+}
+#emailcont{
+    background-color:  rgba(39, 39, 39, 0.445);
+    border: 0.5px solid rgb(168, 168, 168);
+    height: 56px;
+    padding: 12px 16px 8px 12px;
+    border-radius: 5px;
+}
+#sub-cont{
+    height: 314px;
+    /* border: 1px solid white; */
+}
+#passwordcont{
+    background-color:  rgba(39, 39, 39, 0.445);
+    border: 0.5px solid rgb(168, 168, 168);
+    height: 56px;
+    padding: 12px 16px 8px 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#signincont{
+    height: 40px;
+    text-align: center;
+    background-color: rgb(223, 0, 0);
+    padding-top: 7px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+#signincont:hover{
+    background-color: rgb(173, 0, 0);
+}
+#usecont{
+    height: 40px;
+    background-color: rgba(78, 78, 78, 0.445);
+    text-align: center;
+    padding-top: 7px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+#usecont:hover{
+    background-color: rgba(68, 68, 68, 0.445);
+}
+#forget:hover{
+    text-decoration: underline;
+    color: rgb(168, 168, 168);
+}
+a{
+    text-decoration: none;
+}
+#as:hover{
+    text-decoration: underline;
+}
+
+#query1{
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 50vh;
+    position: absolute;
+    width: 1144px;
+    margin-top: 100px;
+    /* border: 1px solid white; */
+    margin-left: 148px;
+    font-size: medium;
+    color: rgb(168, 168, 168);
+    font-size: 14px;
+
+}
+#list-container{
+    text-decoration: underline;
+}
+#footer{
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 1920px;
+    height: 311px;
+    position: absolute;
+}
+#logo1{
+    background-image: url(./Netflix_Logo_PMS.png);
+    width: 172px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -98vh;
+    margin-left: 150px;
+    position: absolute;
+}
+/* #caret-sign{
+    margin-left: -55px;
+    margin-top: -60px;
+} */
+@media only screen and (width:1920px) {
+    #background-image1{
+        background-size: cover;
+    }
+    #background-color1{
+        background-size: cover;
+    }
+    #sign-container{
+        margin-left: 735px;
+    }
+    #query1{
+        margin-left: 388px;
+    }
+    #footer{
+        margin-top: -50px;
+    }
+    #logo1{
+        margin-left: 388px;
+    }
+}
+@media (min-width:1024px) and (max-width:1439px) {
+    #logo1{
+        margin-left: 10px;
+    }
+    #sign-container{
+        margin-left: 300px;
+    }
+    #footer{
+        width: 1000px;
+    }
+    #query1{
+        width: 930px;
+        margin-left: 80px;
+    }
+}
+@media (min-width:768px) and (max-width:1023px) {
+    #logo1{
+        margin-left: 10px;
+        width: 88px;
+        height: 30px;
+    }
+    #sign-container{
+        margin-left: 170px;
+    }
+    #footer{
+        width: 700px;
+    }
+    #query1{
+        width: 700px;
+        margin-left: 50px;
+    }
+}
+@media (min-width:425px) and (max-width:767px) {
+    #background-image1{
+        background: none;
+    }
+    #logo1{
+        width: 88px;
+        height: 30px;
+        margin-left: 48px;
+    }
+    #sign-container{
+        background: none;
+        margin-left: -12px;
+        margin-top: -850px;
+    }
+    #footer{
+        width: 425px;
+    }
+    #query1{
+        width: 425px;
+        margin-left: 10px;
+    }
+}
+@media (min-width:375px) and (max-width:424px) {
+    #background-image1{
+        background: none;
+    }
+    #logo1{
+        width: 88px;
+        height: 30px;
+        margin-left: 25px;
+    }
+    #sign-container{
+        background: none;
+        margin-left: -35px;
+        margin-top: -850px;
+    }
+    #footer{
+        width: 375px;
+    }
+    #query1{
+        width: 375px;
+        margin-left: 1px;
+    }
+}
+@media (min-width:320px) and (max-width:424px){
+    #background-image1{
+        background: none;
+    }
+    #logo1{
+        width: 88px;
+        height: 30px;
+        margin-left: -5px;
+    }
+    #sign-container{
+        background: none;
+        margin-left: -65px;
+        margin-top: -850px;
+    }
+    #footer{
+        width: 320px;
+    }
+    #query1{
+        width: 320px;
+        margin-left: 1px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px) and (max-width:1439px) {
+    #background-image{
+        background-size: cover;
+        height: 86vh;
+        /* width: 1024px; */
+    }
+    #background-color{
+        background-size: cover;
+        margin-top: -86vh;
+        height: 86.2vh;
+        /* width: 1024px; */
+    }
+    #raident-container{
+        width: 1024px;
+        margin-top: 86vh;
+    }
+    #trend-container{
+        margin-top: -10px;
+        width: 1024px;
+        margin-left: -50px;
+    }
+ 
+    #header-container{
+        width: 880px;
+        margin-left: -50px;
+        margin-top: -86vh;
+    }
+    #head{
+        width: 880px;
+        margin-left: -30px;
+    }
+    
+    #unlim-cont{
+        width: 960px;
+        margin-left:70px;
+        margin-top: -5vh;
+    }
+    #tvshow{
+        font-size: 40px;
+    }
+    #startat{
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    #get-cont{
+        margin-left: 710px;
+    }
+    #email-box{
+        margin-left: 100px;
+    }
+    #trend{
+        font-size: 24px;
+        width: 870px;
+    }
+    #img1{
+        height: 180px;
+        width: 135px;
+    }
+    #carousel1{
+        width: 924px;
+        height: 208px;
+        margin-left:-30px ;
+        margin-top: 10px;
+    }
+    #carousel-inner{
+        width: 924px;
+        height: 208px;
+    }
+    .carousel-control-prev{
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+    .carousel-control-next{
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+    .cardcom{
+        padding: 5px;
+    }
+    #card1{
+        margin-left: 30px;
+    }
+    #card2{
+        margin-left: -10px;
+    }
+    #card3{
+        margin-left: -10px;
+    }
+    #card4{
+        margin-left: -10px;
+    }
+    #card5{
+        margin-left: -10px;
+    }
+    #one{
+        margin-left: 30px;
+    }
+    #two{
+        margin-left: 180px;
+    }
+    #three{
+        margin-left: 360px;
+    }
+    #four{
+        margin-left: 540px;
+    }
+    #five{
+        margin-left: 720px;
+    }
+    #morereason{
+        font-size: 24px;
+        grid-area: box;
+    }
+    #more{
+        height: 500px;
+        width: 870px;
+        display: grid;
+        grid-template-columns: repeat(2,426px);
+        grid-template-rows: repeat(2,209px);
+        grid-template-areas: 'box box''box1 box2''box3 box4';
+        align-items: start;
+        justify-content: flex-start;
+        margin-top: 250px;
+        padding-left: 270px;
+    }
+    .flex-cards{
+        width: 426px;
+        height: 209px;
+    }
+    #container1{
+        grid-area: box1;
+        margin-left: 0px;
+        margin-top: -160px;
+    }
+    #container2{
+        grid-area: box2;
+        margin-left: 10px;
+        margin-top: -160px;    
+    }
+    #container3{
+        grid-area: box3;
+        margin-top: -150px;
+    }
+    #container4{
+        grid-area: box4;
+        margin-left: 10px;
+        margin-top: -150px;
+    }
+    #icon1{
+        margin-top: 10px;
+    }
+    #icon4{
+        margin-left: 180px;
+        margin-top: -10px;
+    }
+    #accordionFlushExample{
+        width: 870px;
+    }
+    #bottom-email{
+        width: 870px;
+        margin-left: px;
+        text-align: center;
+        margin-top: 700px;
+    }
+    #email-container{
+        margin-left: -350px;
+    }
+    #query{
+        width: 870px;
+        font-size: 14px;
+    }
+    #Frequently{
+        width: 870px;
+    }
+    #trend-container{
+        width: 870px;
+    }
+    #content{
+        width: 870px;
+    }
+    #carousel{
+        width: 870px;
+    }
+    #unlim-container{
+        width: 1024px;
+    }
+    #FrequentlyAsked{
+        font-size: 24px;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    
+    #header-container{
+        margin-left: -100px;
+        width: 768px;
+        padding: 0;
+    }
+    #logo{
+        width: 110px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    #head{
+        width: 768px;
+    }
+    #langcontainer{
+        width: 100px;
+        margin-left: 00px;
+    }
+    #lang{
+        margin-left: -50px;
+    }
+    #caret{
+        margin-left: 45px;
+    }
+    #caret1{
+        margin-left: -55px;
+    }
+    #unlim-container{
+        padding: 0;
+        margin-left: 100px;
+        width: 768px;
+    }
+    #unlim-cont{
+        font-size: 1rem;
+        width: 768px;
+    }
+    #tvshow{
+        font-size: 2rem;
+    }
+    #email-container{
+        width: 10px;
+        margin-left: -110px;
+    }
+    #email-box{
+        width: 243.05px;
+        font-size: 32px;
+        padding-top:0;
+        margin-left: 100px;
+    }
+    #email-box::placeholder{
+        font-size: 16px;
+    }
+    #get-cont{
+        padding-top: 16px;
+        width: 180px;
+        margin-left: 350px;
+        font-size: 16px;
+    }
+    #raident-container{
+        padding: 0;
+        width: 768px;
+    }
+    #trend-container{
+        margin-left: -120px;
+        margin-top: 20px;
+        width: 768px;
+    }
+    #trend{
+        font-size: 18px;
+        width: 768px;
+    }
+    #locat{
+        width: 718px;
+    }
+    #mov{
+        margin-top: 10px;
+        margin-left: 147px;
+        width: 718px;
+    }
+    #img1{
+        width: 112px;
+        height: 156px;
+    }
+    #content{
+        width: 768px;
+    }
+    #carousel1{
+        width: 730px;
+    }
+    #carouselExample{
+        width: 768px;
+    }
+    #carousel{
+        width: 768px;
+    }
+    #card1{
+        margin-left: -5px;
+    }
+    #card2{
+        margin-left: -15px;
+    }
+    #card3{
+        margin-left: -15px;
+    }
+    #card4{
+        margin-left: -15px;
+    }
+    #card5{
+        margin-left: -15px;
+    }
+    #one{
+        margin-left: 5px;
+    }
+    #two{
+        margin-left: 145px;
+    }
+    #three{
+        margin-left: 290px;
+    }
+    #four{
+        margin-left: 435px;
+    }
+    #five{
+        margin-left: 580px;
+    }
+    .carousel-control-prev{
+        margin-top: 70px;
+        margin-left: -5px;
+    }
+    .carousel-control-next{
+        margin-top: 70px;
+        margin-right: 50px;
+    }
+    #more{
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: -775px;
+        height: 100vh;
+        margin-top: 300px;
+    }
+    .flex-cards{
+        width: 704px;
+        height: 181px;
+    }
+    #morereason{
+        margin-left: -30px;
+        font-size: 18px;
+    }
+    #container2{
+        margin-top: 240px;
+        margin-left: -705px;
+    }
+    #container3{
+        margin-top: 431px;
+        margin-left: -705px;
+    }
+    #container4{
+        margin-top: 622px;
+        margin-left: -705px;
+    }
+    #icon1{
+        margin-left:300px ;
+        margin-top: 10px;
+    }
+    #icon2{
+        margin-top: 20px;
+        margin-left: 250px;
+        height: 20px;
+        width: 20px;
+    }
+    #icon3{
+        margin-left: -30px;
+        height: 20px;
+        width: 20px;
+    }
+    #icon4{
+        margin-left: 370px;
+    }
+    #FrequentlyAsked{
+        font-size: 18px;
+    }
+    #accordionFlushExample{
+        width: 704px;
+    }
+    #Frequently{
+        width: 768px;
+    }
+    #bottom-email{
+        width: 768px;
+        text-align: center;
+        margin-left: 120px;
+    }
+    .email-container1{
+        width: 243.05px;
+    }
+    #email-box1{
+        width: 243.05px;
+        margin-left: 250px;
+    }
+    #get-cont1{
+        margin-left: 500px;
+    }
+    #list-container{
+        width: 768px;
+        display: flex;
+        justify-content: center;
+    }
+    .list{
+        width: 156px;
+    }
+    #query{
+        width: 768px;
+    }
+}
+@media (min-width:425px) and (max-width:767px) {
+    #background-image{
+        height: 73vh;
+    }
+    #unlim-container{
+        width:425px;
+        padding: 0;
+    }
+    #unlim-cont{
+        width:425px;
+        padding: 0;
+    }
+    #tvshow{
+        font-size: 32px;
+    }
+    #startat{
+        font-size: 1rem;
+    }
+    #email-container{
+        width: 361px;
+        margin-left: 30px;
+    }
+    #get-cont{
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    #logo{
+        width: 88px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    #head{
+        width: 425px;
+        margin-left: -150px;   
+    }
+    #header-container{
+        width: 425px;
+        margin-top: -640px;
+    }
+    #raident-container{
+        width: 425px;
+        margin-top: 73vh;
+    }
+    #trend-container{
+        margin-left: -130px;
+        width: 425px;
+    }
+    #trend{
+        font-size: 18px;
+        width: 425px;
+    }
+    #locat{
+        width: 377px;
+        margin-left: 154px;
+    }
+    #mov{
+        width: 377px;
+        margin-top: 10px;
+        margin-left: 154px;
+    }
+    #content{
+        width: 425px;
+    }
+    #img1{
+        width: 112px;
+        height: 156px;
+    }
+    #card1{
+        margin-left: -20px;
+    }
+    #card2{
+        margin-left: -20px;
+    }
+    #card3{
+        margin-left: -20px;
+    }
+    #card4{
+        margin-left: -20px;
+        margin-left: -355px; 
+    }
+    .img4{
+        margin-top: 350px;
+    }
+    #card5{
+        margin-left: -20px;
+    }
+    .carousel-control-prev{
+        margin-left: -10px;
+        margin-top: 300px;
+    }
+    .carousel-control-next{
+        margin-right: 25px;
+        margin-top: 300px;
+    }
+    #one{
+        margin-left: -10px;
+        margin-top: -300px;
+    }
+    #two{
+        margin-left: 120px;
+        margin-top: -300px;
+    }
+    #three{
+        margin-left: 240px;
+        margin-top: -300px;
+    }
+    #four{
+        margin-left: 50px;
+    }
+    #five{
+        margin-left: 190px;
+    }
+    #carousel{
+        width: 425px;
+        height: 500px;
+    }
+    #carouselExample{
+        width: 425px;
+        height: 300px;
+    }
+    .carousel-inner{
+        height: 600px;
+        margin-top: -10px;
+    }
+    #more{
+        margin-top: 600px;
+        display: flex;
+        justify-content: left;
+        margin-left: 465px;
+        height: 120vh;
+        width: 425px;
+    }
+    .flex-cards{
+        width: 377px;
+        height: 205px;
+    }
+    #sub-content{
+        margin-left: -270px;
+        width: 350px;
+    }
+    #morereason{
+        margin-left: -205px;
+        font-size: 18px;
+    }
+    #container2{
+        margin-top: 260px;
+        margin-left: -380px;
+
+    }
+    #container3{
+        margin-top: 470px;
+        margin-left: -380px;
+    }
+    #container4{
+        margin-top: 680px;
+        margin-left: -380px;
+    }
+    #icon1{
+        margin-left: 130px;
+        margin-top: 5px;
+    }
+    #icon4{
+        margin-left: 130px;
+        margin-top: -30px;
+    }
+    #Frequently{
+        width: 425px;
+    }
+    #FrequentlyAsked{
+        font-size: 18px;
+    }
+    #accordionFlushExample{
+        width: 377px;
+    }
+    #bottom-email{
+        width: 425px;
+        margin-left: 130px;
+        
+    }
+    #email-box1{
+        width: 377px;
+        margin-left: -5px;
+    }
+    #get-cont1{
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+    #query{
+        margin-top: 1000px;
+        width: 425px;
+        margin-left: 132px;
+    }
+}
+
+#morereason{
+    font-weight: 700;
+}
+#FrequentlyAsked{
+    font-weight: 700;
+}
