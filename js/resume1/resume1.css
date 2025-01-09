@@ -1,0 +1,596 @@
+[contentEditable=true]:empty:not(:focus):before {
+    content: attr(data-text)
+  }
+body{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+}
+#main{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    margin: 0;
+    padding-top: 20px;
+    background-color: rgb(238, 238, 238);
+}
+#submain1{
+    display: flex;
+    width: 50%;
+    height: 1330px;
+    border: 1px solid rgb(165, 165, 165);
+    padding: 20px;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+}
+#submain1-element-1{
+    width: 100%;
+}
+#submain1-element-1-input1{
+    font-size: 2rem;
+    color: rgb(0, 56, 161);
+    font-weight: 700;
+    width: 300px;
+}
+#submain1-element-1-input1::placeholder{
+    color: rgb(0, 56, 161);
+}
+.submain1-element-1-input{
+    border: none;
+    color: rgb(0, 56, 161);
+}
+#submain1-element-1-input2{
+    font-size: 1rem;
+    margin-top: 5px; 
+}
+#submain1-element-1-input2::placeholder{
+    color: rgb(0, 56, 161);
+}
+#submain1-element-2{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+#submain1-element-2-icon1{
+    margin-top: 10px;
+}
+.submain1-element-1-input2-input{
+    border: none;
+    color: rgb(0, 56, 161);
+}
+.submain1-element-1-input2-input::placeholder{
+    color: rgb(0, 56, 161);
+}
+#submain2-element-1{
+    display: flex;
+    color: rgb(0, 56, 161);
+    flex-direction: column;
+}
+#submain2-element-1-submain1:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#submain2-element-1-input1{
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    overflow-wrap: break-word;
+    font-size: 1rem ;
+}
+
+#submain3-element-1{
+    display: flex;
+    flex-direction: column;
+}
+
+#submain3-element-1-head{
+    color: rgb(0, 56, 161);
+}
+#submain3-element-1-submain1{
+    display: flex;
+    
+}
+#submain3-element-1-submain2{
+    display: block;
+}
+#submain3-element-1-submain1:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.submain3-element-1-submain1-input{
+    border: none;
+    font-size: 1rem;
+}
+#submain3-element-1-submain1-input{
+    margin-left: 20px;
+}
+#submain3-element-1-submain1-input2{
+    width: 300px;
+    
+}
+#submain3-element-1-submain1-submain1{
+    margin-left: 6px;
+    padding-left: 28px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+#submain3-element-1-submain1-submain1-input{
+    border: none;
+}
+#submain3-element-1-submain1-submain1-input1{
+    border: none;
+}
+#submain4-element-1{
+    display: flex;
+    flex-direction: column;
+}
+#submain4-element-1-head{
+    color: rgb(0, 56, 161);
+}
+#submain4-element-1-submain-main-1{
+    display: flex;
+    flex-direction: column;
+}
+#submain4-element-1-submain1{
+    display: flex;
+    flex-direction: row;
+}
+#submain4-element-1-submain1:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.submain4-element-1-submain1-submain1-input{
+    border: none
+}
+#submain4-element-1-submain1-submain1-input-list{
+    width: 500px;
+}
+#submain4-element-1-submain1-submain1-input-list-input{
+    width: 100%;
+}
+#submain5-element-1{
+    display: flex;
+    flex-direction: column;
+}
+#submain5-element-1-head{
+    color: rgb(0, 56, 161);
+}
+#submain5-element-1-submain1:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#submain5-element-1-submain1-input{
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#submain6-element-1{
+    display: flex;
+    flex-direction: column;
+}
+#submain6-element-1-head{
+    color: rgb(0, 56, 161);
+}
+#submain6-element-1-submain1:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.submain6-element-1-submain1-input{
+    border: none
+}
+#submain6-element-1-submain1-input1{
+    color: rgb(0, 56, 161);
+    width: 300px;
+}
+
+#submain6-element-1-submain1-input2{
+    color: rgb(88, 147, 255);
+    width: 300px;
+}
+
+#submain7-element-1-submain1:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#submain7-element-1{
+    display: flex;
+    flex-direction: column;
+}
+#submain7-element-1-head{
+    color: rgb(0, 56, 161);
+}
+.submain7-element-1-submain1-input{
+    border: none;
+    color: rgb(0, 56, 161);
+    overflow-wrap: break-word;
+}
+#submain8-element-1-submain1{
+    display: flex;
+    flex-direction: column;
+}
+#submain8-element-1-submain1-input{
+    border: none
+}
+#submain8-element-1-head{
+    color: rgb(0, 56, 161);
+}
+#submain8-element-1-submain1:hover{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#sample{
+    border: 1px solid green;
+    height: 30px;
+    overflow-wrap: break-word;
+}
+
+/* button */
+#button1{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 400px;
+    display: none;
+}
+#button1-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#button1-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#button1-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#button1-2-i{
+    margin-left: -5px;
+}
+#button1-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+
+#button2{
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 400px;
+    display: none;
+}
+#button2-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#button2-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#button2-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#button2-2-i{
+    margin-left: -5px;
+}
+#button2-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+#sub-button3{
+    position: absolute;
+    margin-top: 516px;
+    margin-left: 800px;
+    display: none;
+}
+#sub-button3-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#sub-button3-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#sub-button3-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#sub-button3-2-i{
+    margin-left: -5px;
+}
+#sub-button3-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+#button3{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 400px;
+    display: none;
+}
+#button3-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#button3-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#button3-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#button3-2-i{
+    margin-left: -5px;
+}
+#button3-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+#button4{
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 400px;
+    display: none;
+}
+#button4-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#button4-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#button4-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#button4-2-i{
+    margin-left: -5px;
+}
+#button4-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+#button5{
+    position: absolute;
+    margin-top: 715px;
+    margin-left: 400px;
+    display: none;
+}
+#button5-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#button5-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#button5-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#button5-2-i{
+    margin-left: -5px;
+}
+#button5-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+#button6{
+    position: absolute;
+    margin-top: 865px;
+    margin-left: 400px;
+    display: none;
+}
+#button6-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#button6-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#button6-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#button6-2-i{
+    margin-left: -5px;
+}
+#button6-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+#sub-button6{
+    position: absolute;
+    margin-top: 1020px;
+    margin-left: 800px;
+    display: none;
+}
+#sub-button6-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#sub-button6-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#sub-button6-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#sub-button6-2-i{
+    margin-left: -5px;
+}
+#sub-button6-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+#button7{
+    position: absolute;
+    margin-top: 1075px;
+    margin-left: 400px;
+    display: none;
+}
+#button7-1{
+    background-color: rgb(88, 147, 255);
+    border: none;
+    height: 30px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    color: white;
+    transition: 0.5s;
+}
+#button7-1:hover{
+    background-color: rgb(4, 168, 75);
+}
+#button7-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    margin-left:-6px ;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    width: 40px;
+    transition: 0.5s;
+}
+#button7-2-i{
+    margin-left: -5px;
+}
+#button7-2:hover{
+    background-color:rgb(165, 2, 2);
+    border-top: 1px solid rgb(165, 2, 2);
+    border-right: 1px solid rgb(165, 2, 2);
+    border-bottom: 1px solid rgb(165, 2, 2);
+}

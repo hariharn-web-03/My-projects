@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="div">
+        <h1>Post</h1>
+        <div id="comment"></div> -->
+        <input type="text" name="" id="tex">
+        <input type="text" name="" id="lin">
+        <button onclick="gen()">Generate</button>
+        <div id="out">
+            
+        </div>
+    </div>
+    <script>
+        // let arr = [1,"das",402,123456789];
+        // let div = document.getElementById("div")
+        // for(let a = 0; a < arr.length; a++){
+        //     let h1 = document.createElement("h1")
+        //     h1.innerText = arr[a];
+        //     div.append(h1)
+        //     console.log(a);
+            
+        // }
+        // let promp = prompt("Please enter the URL");
+        // let comment = document.getElementById("comment");
+        // let image = document.createElement("img");
+        // comment.append(image);
+        // image.setAttribute("src",promp);
+        // let imgstyle = image.style.width = "100px";
+        // imgstyle.heigth = "100px";
+        function gen(){
+        let tex = document.getElementById("tex").value;
+        let lin = document.getElementById("lin").value;
+        let out = document.getElementById("out");
+        let an = document.createElement("a");
+        an.setAttribute("href",lin);
+        out.append(an);
+        an.innerText = tex;
+        }
+        
+    </script>
+</body>
+</html>

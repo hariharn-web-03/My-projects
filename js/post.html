@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Post your review</h1>
+    <img src="./photo/1l5y2159p5l71.jpg" alt="" width="300px"><br><br>
+    <input type="text" name="text" id="comment">
+    <button onclick="post()">Post</button>
+    <div id="commentbox"></div>
+
+    <script>
+        function post(){
+            let boxa = document.getElementById("commentbox");
+            let boxb = document.getElementById("comment").value;
+            let el = document.createElement("p");
+            el.innerText = boxb;
+            commentbox.append(el);
+            console.log(comment-box.append(el));
+            
+        }
+    </script>
+</body>
+</html>

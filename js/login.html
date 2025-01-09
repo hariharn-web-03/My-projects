@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./extended-reach-global-networks-benefit.png" type="text">
+    <script src="https://kit.fontawesome.com/1e950da109.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        #passicon1{
+            margin-left: -0px;
+            display: none;
+            background: none;
+            border: none;
+        }
+        #passicon{
+            background: none;
+            border: none;
+        }
+        #reg-main{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to bottom, #6eb9ff, #007724);
+        }
+        #log-main{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to bottom, #6eb9ff, #007724);
+            position: absolute;
+            top: 0;
+        }
+        body{
+            margin: 0;
+            font-family: "Poppins", serif;
+            position: relative;
+        }
+        .reg-form{
+            width: 400px;
+            height: 500px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        #button{
+            margin-top: -60px;
+            margin-left: 280px;
+        }
+        .inputs{
+            width: 300px;
+            height: 40px;
+            border-right: none;
+            border-top: none;
+            border-left: none
+        }
+        #reg{
+            width: 300px;
+            height: 40px;
+            border: none;
+            background-color: #007724;
+            color: #ffffff;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all ease-in-out 0.3s;
+        }
+        #reg:hover{
+            background-color: #6eb9ff;
+        }
+        #reg:active{
+            transform: scale(0.9);
+        }
+        #reg:focus{
+            outline: none
+        }
+        a{
+            text-decoration: none;
+            color: #007724;
+        }
+        a:hover{
+            color: #6eb9ff;
+        }
+        .log-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0);
+            height: 300px;
+            width: 400px;
+            background-color: #ffffff;
+        }
+        
+        #login{
+            width: 300px;
+            height: 40px;
+            border: none;
+            background-color: #007724;
+            color: #ffffff;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all ease-in-out 0.3s;
+
+        }
+        #login:hover{
+            background-color: #6eb9ff;
+        }
+        #login:active{
+            transform: scale(0.9);
+        }
+        #login:focus{
+            outline: none
+        }
+        #create{
+            cursor: pointer;
+            color: #007724;
+            transition: all ease-in-out 0.3s;
+        }
+        #create:hover{
+            color: #6eb9ff;
+            text-decoration: underline;
+        }
+        #already{
+            cursor: pointer;
+            color: #007724;
+            transition: all ease-in-out 0.3s;
+        }
+        #already:hover{
+            color: #6eb9ff;
+            text-decoration: underline;
+        }
+        #log-main-wel{
+            font-size: 20px;
+            font-weight: bold;
+            color: #b7ffcd;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="reg-main">
+        <div class="reg-form">
+            <h1>Register</h1>
+        <input type="email" name="" id="reg-inp1" placeholder="Email" class="inputs"><br>
+        <input type="text" name="" id="reg-inp2" placeholder="Username" class="inputs"><br>
+        <input type="password" name="reg-inp3" id="password" placeholder="Password" class="inputs"><br>
+        <div id="button">
+            <button id="passicon"><i class="fa-regular fa-eye fa-xs" ></i></button>
+            <button id="passicon1"><i class="fa-regular fa-eye-slash fa-xs" ></i></button>
+        </div><br>
+        <div>Already have an account? <span id="already">Login</span></div><br>
+        <button type="button" id="reg">Register</button>
+        </div>
+    </div>
+    <div id="log-main">
+        <div id="log-main-wel">
+            <h1>Lti</h1>
+            <p>Lti helps you to create a resume and usage of Calculator</p>
+        </div>
+        <div class="log-form">
+            <h1>Login</h1>
+            <input type="text" name="" id="log-inp1" placeholder="Username" class="inputs"><br>
+            <input type="password" name="" id="log-inp2" placeholder="Password" class="inputs"><br>
+            <div>Create an account? <span id="create">Register</span></div><br>  
+            <button type="button" id="login">Login</button>
+        </div>
+    </div>
+    <script>
+        const regmain = document.getElementById('reg-main');
+        const already = document.getElementById('already');
+        const logmain = document.getElementById('log-main');
+        const create = document.getElementById('create');
+        const passicon = document.getElementById('passicon');
+        const passicon1 = document.getElementById('passicon1');
+        const password = document.getElementById('password');
+
+        passicon.addEventListener("click", () =>{
+            password.type = password.type === 'password' ? 'text' : 'password';
+            passicon.style.display = 'none';
+            passicon1.style.display = 'inline';
+        });
+
+        passicon1.addEventListener("click", ()=>{
+            password.type = password.type === 'password' ? 'text' : 'password';
+            passicon.style.display = 'inline';
+            passicon1.style.display = 'none';
+        });
+
+        create.addEventListener("click", ()=>{
+            logmain.style.display = 'none';
+            regmain.style.display = 'flex';
+        })
+        already.addEventListener("click", ()=>{
+            regmain.style.display = 'none';
+            logmain.style.display = 'flex';
+        })
+
+        const reg = document.getElementById("reg");
+        const login = document.getElementById("login");
+        let a = 1;
+
+        reg.addEventListener("click", () => {
+            let reginp1 = document.getElementById("reg-inp1").value;
+            let reginp2 = document.getElementById("reg-inp2").value;
+            let reginp3 = document.getElementById("password").value;
+
+            let obj = {
+                email: reginp1,
+                username: reginp2,
+                password: reginp3
+            };
+
+            let ar = JSON.parse(localStorage.getItem('users')) || [];
+            ar.push(obj);
+            localStorage.setItem('users', JSON.stringify(ar));
+            window.open("login.html", "_self");
+        });
+
+        login.addEventListener("click", () => {
+            let loginp1 = document.getElementById("log-inp1").value;
+            let loginp2 = document.getElementById("log-inp2").value;
+
+            let storedData = localStorage.getItem('users');
+            if (storedData) {
+                let temar = JSON.parse(storedData);
+                let userFound = temar.find(user => user.username === loginp1 && user.password === loginp2);
+
+                if (userFound) {
+                    window.location.href = "welcome.html";
+                } else {
+                    alert("Incorrect username or password");
+                }
+            } else {
+                alert("No registered users found");
+            }
+        });
+    </script>
+</body>
+</html>

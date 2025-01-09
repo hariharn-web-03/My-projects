@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./180010939-bank-teller-calculator-icon-flat-isolated-vector.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Poppins", serif;
+        }
+        #main{
+            width: 100%;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container{
+            width: 30%;
+            height: 30%;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+            border-radius: 10%;
+        }
+        .func{
+            background-color: rgb(253, 142, 142);
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 40%;
+        }
+        .inp{
+            width: 20%;
+            height: 30px;
+        }
+        #output-box{
+            width: 30%;
+            height: 40%;
+            background-color: #f0f0f0;
+            margin-top: 10px;
+            border-radius: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #output{
+            width: 30%;
+            height: 30%;
+            border-radius: 10%;
+            background-color: white;
+            align-content: center;
+            justify-items: center;
+        }
+        .inp{
+            background-color: white;
+            border: none;
+            border-radius: 10%;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+        <div id="main">
+            <div class="container">
+                <h1>Calculator</h1>
+                <input id="box1" type="number" class="inp"><br>
+                <input id="box2" type="number" class="inp"><br>
+                <div id="buttons">
+                    <button onclick="add()" title="Add" class="func">+</button>
+                    <button onclick="sub()" title="Subaract" class="func">-</button>
+                    <button onclick="mult()" title="Multiple" class="func">*</button>
+                    <button onclick="div()" title="Divide" class="func">/</button>
+                </div> 
+            </div>
+            <div id="output-box">
+                <div id="output"></div>
+            </div>
+
+        </div>
+        <div id="output"></div>
+        <button type="button">Reset</button>
+    <script>
+        function add(){
+            let box1 = Number(document.getElementById("box1").value);
+            let box2 = Number(document.getElementById("box2").value);
+            let output = document.getElementById("output");
+            let hen = Number(box1+box2);
+            let out = document.createElement("p");
+            out.innerText = hen;
+            output.append(out);
+            console.log(output.append(out)); 
+        }
+        function sub(){
+            let box1 = Number(document.getElementById("box1").value);
+            let box2 = Number(document.getElementById("box2").value);
+            let output = document.getElementById("output");
+            let hen = Number(box1-box2);
+            let out = document.createElement("p");
+            out.innerText = hen;
+            output.append(out);
+            console.log(output.append(out)); 
+        }
+        function mult(){
+            let box1 = Number(document.getElementById("box1").value);
+            let box2 = Number(document.getElementById("box2").value);
+            let output = document.getElementById("output");
+            let hen = Number(box1*box2);
+            let out = document.createElement("p");
+            out.innerText = hen;
+            output.append(out);
+            console.log(output.append(out)); 
+        }
+        function div(){
+            let box1 = Number(document.getElementById("box1").value);
+            let box2 = Number(document.getElementById("box2").value);
+            let output = document.getElementById("output");
+            let hen = Number(box1/box2);
+            let out = document.createElement("p");
+            out.innerText = hen;
+            output.append(out);
+            console.log(output.append(out)); 
+        }
+    </script>
+</body>
+</html>

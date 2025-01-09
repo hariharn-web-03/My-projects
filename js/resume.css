@@ -1,0 +1,134 @@
+#main{
+    display: flex;
+    border: 1px solid black;
+    height: 100vh;
+    margin: 0;
+    justify-content: space-between;
+
+}
+#submain1{
+    border: 1px solid black;
+    width: 48vw;
+    display: flex;
+    padding: 20px;
+}
+
+#submain2{
+    border: 5px solid rgb(34,54,88);
+    width: 48vw;
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+#profile{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    border: 1px solid black;
+}
+.subprofile{
+    border: 1px solid black;
+    height: 15px;
+    width: 280px;
+    padding: 7.5px;
+}
+#profilesum{
+    margin-left: 380px;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    border: 1px solid black;
+}
+#subprofile1{
+    margin-top: 75px;
+    position: absolute;
+    margin-left: 20px;
+}
+#subprofile1-1{
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 20px;
+}
+#subprofile2{
+    margin-left: 40px;
+}
+.inputbox{
+    height: 20px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+#subinput3::placeholder{
+    width: 160px;
+}
+#button-reset{
+    margin-top: 900px;
+}
+#subinput4{
+    width: 500px;
+    height: 40px;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#input2-eduction{
+    margin-top: 0px;
+}
+#input2-eduction-radio-subselect1-select{
+    width: 200px;
+}
+.input2-eduction-radio-subselect1-per-ca{
+    display: none;
+}
+#input2-eduction-radio-subselect1{
+    display: none;
+}
+#input1-per{
+    display: none;
+}
+#input1-gra{
+    display: none;
+}
+#input2-eduction-radio-subselect2-select{
+    width: 200px;
+}
+#input2-per{
+    display: none;
+}
+#input2-gra{
+    display: none;
+}
+.input2-eduction-radio-subselect2-per-ca{
+    display: none;
+}
+#input2-eduction-radio-subselect2{
+    display: none;
+}
+#input2-eduction-radio-subselect3-radio1{
+    width: 500px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#input2-eduction-radio-subselect3-select{
+    width: 200px;
+}
+.input2-eduction-radio-subselect3-per-ca{
+    display: none;
+}
+#input3-per{
+    display: none;
+}
+#input3-gra{
+    display: none;
+}
+#input2-eduction-radio-subselect3{
+    display: none;
+
+}
+.input3-skills-inputs{
+    border-left: none;
+    border-top: none;
+    border-right:none ;
+    
+}
